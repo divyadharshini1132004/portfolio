@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Resume - Divyadharshini</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <style>
+     body {
+    font-family: 'Georgia', serif; /* Formal body text font */
+    margin: 0;
+    padding: 0;
+    background-color: white; /* White background */
+    color: #333; /* Dark text color for readability */
+}
+
+.container {
+    padding: 20px;
+    max-width: 1200px; /* Optional: limits the width of the container */
+    margin: 0 auto; /* Center the container */
+    background-color: white; /* Ensure white background for the container */
+}
+
+.navbar {
+    width: 100%;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.navbar .profile-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.navbar .profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.navbar .profile-info {
+    color: white; /* White text for profile info */
+    max-width: 600px; /* Adjust this value if needed */
+    text-align: center; /* Center-align text */
+    font-family: 'Helvetica', sans-serif; /* Professional font for profile info */
+}
+
+.navbar .profile-info h3 {
+    color: #1f1a1ac4; /* Dark blue color for the name */
+    font-family: 'Times New Roman', serif; /* Formal font for the name */
+    font-size: 28px; /* Larger font size for prominence */
+    font-weight: bold; /* Bold font weight for emphasis */
+    text-transform: uppercase; /* Uppercase letters for a formal look */
+    margin: 0; /* Remove default margin */
+}
+
+.navbar .profile-info p {
+    margin: 5px 0;
+}
+
+.navbar .profile-info a {
+    color: #ff69b46e; /* Color for email link */
+    text-decoration: none; /* Remove underline */
+}
+
+.navbar .profile-info a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.navbar .github-icon, .navbar .linkedin-icon {
+    margin-left: 5px;
+}
+
+.navbar .github-link {
+    color: #6e5494; /* Color for GitHub link */
+}
+
+.navbar .github-link:hover {
+    color: #4c3c61; /* Darker color for GitHub link on hover */
+}
+
+.navbar .linkedin-link {
+    color: #0e76a8; /* Color for LinkedIn link */
+}
+
+.navbar .linkedin-link:hover {
+    color: #094074; /* Darker color for LinkedIn link on hover */
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Center the navbar items */
+    width: 100%; /* Ensure navbar takes full width */
+}
+
+.navbar ul li {
+    margin: 0;
+}
+
+.navbar ul li a {
+    color: white;
+    padding: 14px 20px;
+    display: block;
+    text-decoration: none;
+    font-family: 'Helvetica', sans-serif; /* Professional font for navbar links */
+}
+
+.navbar ul li a:hover {
+    background-color: #282c2c;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align content to the left */
+    width: 100%; /* Ensure content takes full width */
+    padding: 20px 0; /* Padding for spacing */
+}
+
+section {
+    margin-bottom: 20px;
+    width: 100%; /* Ensure sections take full width */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    text-align: left; /* Left-align text content */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    background-color: #c9c0c0; /* Light grey background for sections */
+}
+
+section h2 {
+    border-bottom: 2px solid #030303e0;
+    padding-bottom: 5px;
+    margin-bottom: 10px; /* Space below the heading */
+    font-family: 'Times New Roman', serif; /* Formal font for section headings */
+    font-size: 24px; /* Larger font size for headings */
+    color: #634946de; /* Dark blue color for section headings */
+}
+
+section p, section ul {
+    font-family: 'Georgia', serif; /* Formal body text font */
+    font-size: 16px; /* Standard font size for readability */
+    line-height: 1.6; /* Line height for readability */
+}
+
+section ul {
+    list-style: disc;
+    margin-left: 20px; /* Indent list items */
+}
+
+.project h3 {
+    font-family: 'Times New Roman', serif; /* Formal font for project titles */
+    font-size: 20px; /* Slightly smaller than section headings */
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="profile-container">
+                <img src="pic.jpeg" alt="Profile Picture" class="profile-pic">
+                <div class="profile-info">
+                    <h3>DIVYADHARSHINI</h3>
+                    <p>Email: <a href="mailto:divyadharshini@gmail.com">divyadharshinidd1103@gmail.com</a></p>
+                    <p>Phone: 9442602921</p>
+                    <p>
+                        <a href="https://github.com/divyadharshini1132004" target="_blank" class="github-link">
+                            GitHub <i class="fab fa-github github-icon"></i>
+                        </a>
+                        |
+                        <a href="https://www.linkedin.com/in/divyadharshini-senthilkumar-8b0711258/" target="_blank" class="linkedin-link">
+                            LinkedIn <i class="fab fa-linkedin linkedin-icon"></i>
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <ul>
+                <li><a href="#summary">About me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+            </ul>
+        </nav>
+
+        <div class="content">
+            <section id="summary" class="summary">
+                <h2>About me</h2>
+                <p>I am a curious and enthusiastic engineering student currently pursuing my undergraduate degree at Sri Krishna College of Technology. I am passionate about learning and exploring new technologies and innovations in my field.</p>
+            </section>
+
+            <section id="skills" class="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Programming Languages: HTML CSS, C++, Java</li>
+                    <li>Frameworks: React</li>
+                    <li>Soft Skills: Team Collaboration, Problem-Solving, Agile Methodologies</li>
+                </ul>
+            </section>
+
+            <section id="education" class="education">
+                <h2>Education</h2>
+                <p>B.E Electronics and Communication and Engineering<br>
+                  Sri Krishna college of Technology<br>
+                Batch 2022-2026</p>
+                <p>Green Park Matric Higher Secondary School, Namakkal<br>
+                  2019-2021
+                  </p>
+                  <p>SSVM Matric Higher Secondary School, Karur<br>
+                    2018-2019</p>
+            </section>
+
+            <section id="projects" class="projects">
+                <h2>Projects</h2>
+                <div class="project">
+                    <h3>Musical Rockerzz Competition Website (HTML, CSS)</h3>
+                    <p>Musical Rockerzz is an online competition application where musicians can register, upload their performance videos, and compete against others. The platform streamlines the competition process, making it easy for participants to showcase their talent and get judged by industry experts.</p>
+                    <h3>AMYPO Website</h3>
+                    <p>The Amypo website features sections on their innovative AI-driven products for education and recruitment, career opportunities, company information, and a blog.</p>
+                </div>
+            </section>
+
+            <section id="certifications" class="certifications">
+                <h2>Certifications and Internships</h2>
+                <h3>Certifications</h3>
+                <ul>
+                    <li>Introduction to HTML in Coursera</li>
+                    <li>Interfacing with the Arduino in Coursera</li>
+                    <li>HTML, CSS, and JavaScript for Web Developers in Coursera</li>
+                    <li>Introduction to C++ in Coursera</li>
+                    <li>C++ Class and Objects in Coursera</li>
+                    <li>C++ Function in Coursera</li>
+                    <li>Introduction to the Internet of Things and Embedded Systems in Coursera</li>
+                </ul>
+                <h3>Internships</h3>
+                <ul>
+                    <li>Undergone 1 week internship in Steel Plant, Salem</li>
+                    <li>Undergone 15 days internship in Salzer electronic pvt ltd company, Coimbatore</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
